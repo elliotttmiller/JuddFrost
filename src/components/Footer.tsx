@@ -10,10 +10,7 @@ export default function Footer() {
           {/* Brand & Social */}
           <div className="lg:col-span-2 flex flex-col items-start">
             <h2 className="font-serif text-3xl md:text-4xl mb-6">Judd Frost Clothier</h2>
-            <p className="text-stone-400 text-sm leading-relaxed mb-6 max-w-sm">
-              Bespoke tailoring and curated menswear in the heart of Wayzata, Minnesota.
-            </p>
-            <div className="flex gap-6">
+            <div className="flex gap-6 mt-4">
               <a href="#" className="text-stone-400 hover:text-stone-50 transition-colors">
                 <Instagram className="w-6 h-6" />
                 <span className="sr-only">Instagram</span>
@@ -31,10 +28,15 @@ export default function Footer() {
             <ul className="space-y-6 text-stone-300">
               <li className="flex items-start gap-4">
                 <MapPin className="w-5 h-5 text-stone-500 shrink-0 mt-1" />
-                <span>
+                <a
+                  href="https://www.bing.com/maps/search?ty=0&v=2&sV=1&style=r&q=Judd+Frost+Clothiers&ss=id.ypid%3A7ECD53FA05731F9C&cp=44.969579%7E-93.512833&lvl=22"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-stone-50 transition-colors"
+                >
                   631 Lake Street East<br />
                   Wayzata, MN 55391
-                </span>
+                </a>
               </li>
               <li className="flex items-center gap-4">
                 <Phone className="w-5 h-5 text-stone-500 shrink-0" />
