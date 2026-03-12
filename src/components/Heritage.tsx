@@ -7,10 +7,9 @@ export default function Heritage() {
       {/* Background Texture/Image */}
       <div className="absolute inset-0 z-0 opacity-20 mix-blend-overlay">
         <img
-          src="https://images.unsplash.com/photo-1585045089338-1644e5485458?q=80&w=1920&auto=format&fit=crop"
+          src={`${import.meta.env.BASE_URL}d4f528ac-8254-4356-9d8b-d5ef7e7bbefa.png`}
           alt="Heritage Texture"
           className="w-full h-full object-cover"
-          referrerPolicy="no-referrer"
         />
       </div>
 
