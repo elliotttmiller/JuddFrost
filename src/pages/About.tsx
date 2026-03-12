@@ -1,4 +1,5 @@
 import Heritage from '../components/Heritage';
+import MeetTheTeam from '../components/MeetTheTeam';
 
 export default function About() {
   return (
@@ -34,6 +35,8 @@ export default function About() {
           </div>
         </div>
       </div>
+
+      <MeetTheTeam />
     </div>
   );
 }
