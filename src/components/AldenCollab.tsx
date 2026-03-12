@@ -48,7 +48,7 @@ export default function AldenCollab() {
                 className="mt-12 md:mt-24"
               >
                 <img
-                  src="https://images.unsplash.com/photo-1593032465175-481ac7f401a0?q=80&w=600&auto=format&fit=crop"
+                  src="/d4f528ac-8254-4356-9d8b-d5ef7e7bbefa.png"
                   alt="High End Menswear Detail"
                   className="w-full h-auto object-cover"
                   referrerPolicy="no-referrer"

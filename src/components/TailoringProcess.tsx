@@ -37,7 +37,7 @@ export default function TailoringProcess() {
           {/* Left Column: Sticky Image */}
           <div className="relative h-[60vh] lg:h-[80vh] w-full lg:sticky lg:top-32 overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1594938298596-03ef66754b81?q=80&w=800&auto=format&fit=crop"
+              src="/c722c46a-b351-4208-a5ab-bb8016de89eb.png"
               alt="Tailoring Process"
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"

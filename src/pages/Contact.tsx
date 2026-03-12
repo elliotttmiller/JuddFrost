@@ -89,13 +89,13 @@ export default function Contact() {
               </li>
             </ul>
 
-            <div className="w-full flex-grow min-h-[300px] bg-stone-200 relative overflow-hidden">
-              <img
-                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=800&auto=format&fit=crop"
-                alt="Store Location"
-                className="w-full h-full object-cover opacity-60"
-                referrerPolicy="no-referrer"
-              />
+            <div className="w-full grow min-h-75 bg-stone-200 relative overflow-hidden">
+        <img
+          src="/judd.jpg"
+                  alt="Store Location"
+                  className="w-full h-full object-cover opacity-60"
+                  referrerPolicy="no-referrer"
+                />
               <div className="absolute inset-0 flex items-center justify-center">
                 <a
                   href="https://maps.google.com"

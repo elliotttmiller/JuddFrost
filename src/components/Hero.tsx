@@ -7,7 +7,7 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=1920&auto=format&fit=crop"
+          src="/87c7bee269686868e2ff2a7fcd680feb.jpg"
           alt="Bespoke Tailoring"
           className="w-full h-full object-cover"
           referrerPolicy="no-referrer"
@@ -66,7 +66,7 @@ export default function Hero() {
         className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
       >
         <span className="text-white/60 text-xs tracking-widest uppercase">Scroll</span>
-        <div className="w-[1px] h-12 bg-white/30 overflow-hidden">
+        <div className="w-px h-12 bg-white/30 overflow-hidden">
           <motion.div
             animate={{ y: ['-100%', '100%'] }}
             transition={{ repeat: Infinity, duration: 1.5, ease: 'linear' }}
