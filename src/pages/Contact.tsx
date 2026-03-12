@@ -89,7 +89,7 @@ export default function Contact() {
               </li>
             </ul>
 
-            <div className="w-full grow min-h-[300px] bg-stone-200 relative overflow-hidden">
+            <div className="w-full grow min-h-75 bg-stone-200 relative overflow-hidden">
               <img
                 src={`${import.meta.env.BASE_URL}judd.jpg`}
                 alt="Store Location"

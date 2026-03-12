@@ -48,7 +48,7 @@ export default function AldenCollab() {
               <img
                 src={`${import.meta.env.BASE_URL}d4f528ac-8254-4356-9d8b-d5ef7e7bbefa.png`}
                 alt="High End Menswear Detail"
-                className="w-full h-auto object-cover max-h-[600px]"
+                className="w-full h-auto object-cover max-h-150"
                 referrerPolicy="no-referrer"
               />
             </motion.div>
