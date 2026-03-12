@@ -3,9 +3,9 @@ import { MapPin, Phone, Mail } from 'lucide-react';
 export default function Contact() {
   return (
     <div className="bg-stone-50 min-h-screen">
-      <div className="bg-charcoal text-white pt-40 pb-24 px-6 text-center">
-        <h1 className="font-serif text-5xl md:text-6xl mb-6">Contact Us</h1>
-        <p className="text-white/70 max-w-2xl mx-auto tracking-wide text-lg">
+      <div className="bg-charcoal text-white pt-32 md:pt-40 pb-16 md:pb-24 px-6 text-center">
+        <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl mb-6">Contact Us</h1>
+        <p className="text-white/70 max-w-2xl mx-auto tracking-wide text-base md:text-lg">
           We look forward to welcoming you to the store.
         </p>
       </div>
@@ -89,13 +89,13 @@ export default function Contact() {
               </li>
             </ul>
 
-            <div className="w-full grow min-h-75 bg-stone-200 relative overflow-hidden">
-        <img
-          src="/judd.jpg"
-                  alt="Store Location"
-                  className="w-full h-full object-cover opacity-60"
-                  referrerPolicy="no-referrer"
-                />
+            <div className="w-full grow min-h-[300px] bg-stone-200 relative overflow-hidden">
+              <img
+                src={`${import.meta.env.BASE_URL}judd.jpg`}
+                alt="Store Location"
+                className="w-full h-full object-cover opacity-60"
+                referrerPolicy="no-referrer"
+              />
               <div className="absolute inset-0 flex items-center justify-center">
                 <a
                   href="https://maps.google.com"

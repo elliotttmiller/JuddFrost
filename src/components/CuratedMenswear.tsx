@@ -67,7 +67,7 @@ export default function CuratedMenswear() {
         </div>
 
         {/* Lookbook Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+        <div className="grid grid-cols-2 md:grid-cols-2 gap-6 md:gap-12">
           {lookbookItems.map((item, index) => (
             <motion.div
               key={item.id}
@@ -77,7 +77,7 @@ export default function CuratedMenswear() {
               transition={{ duration: 0.8, delay: index * 0.1 }}
               className={`group relative overflow-hidden ${index % 2 !== 0 ? 'md:mt-24' : ''}`}
             >
-              <div className="aspect-[4/5] overflow-hidden bg-stone-100">
+              <div className="aspect-[3/4] sm:aspect-[4/5] overflow-hidden bg-stone-100">
                 <img
                   src={item.image}
                   alt={item.title}
@@ -86,9 +86,9 @@ export default function CuratedMenswear() {
                 />
                 <div className="absolute inset-0 bg-charcoal/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               </div>
-              <div className="mt-6">
-                <h4 className="font-serif text-2xl mb-1">{item.title}</h4>
-                <p className="text-sm tracking-widest uppercase text-charcoal/60">{item.subtitle}</p>
+              <div className="mt-3 md:mt-6">
+                <h4 className="font-serif text-base sm:text-xl md:text-2xl mb-1">{item.title}</h4>
+                <p className="text-xs sm:text-sm tracking-widest uppercase text-charcoal/60">{item.subtitle}</p>
               </div>
             </motion.div>
           ))}

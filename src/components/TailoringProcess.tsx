@@ -35,9 +35,9 @@ export default function TailoringProcess() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-start">
           
           {/* Left Column: Sticky Image */}
-          <div className="relative h-[60vh] lg:h-[80vh] w-full lg:sticky lg:top-32 overflow-hidden">
+          <div className="relative h-[50vh] sm:h-[60vh] lg:h-[80vh] w-full lg:sticky lg:top-32 overflow-hidden">
             <img
-              src="/c722c46a-b351-4208-a5ab-bb8016de89eb.png"
+              src={`${import.meta.env.BASE_URL}c722c46a-b351-4208-a5ab-bb8016de89eb.png`}
               alt="Tailoring Process"
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
@@ -74,18 +74,18 @@ export default function TailoringProcess() {
                     onClick={() => setActiveStep(activeStep === step.id ? null : step.id)}
                     className="w-full flex items-center justify-between text-left group"
                   >
-                    <div className="flex items-center gap-6">
-                      <span className="font-mono text-sm text-charcoal/40 group-hover:text-charcoal transition-colors">
+                    <div className="flex items-center gap-4 md:gap-6">
+                      <span className="font-mono text-sm text-charcoal/40 group-hover:text-charcoal transition-colors shrink-0">
                         {step.id}
                       </span>
-                      <h4 className="font-serif text-2xl md:text-3xl group-hover:text-charcoal/70 transition-colors">
+                      <h4 className="font-serif text-xl md:text-2xl lg:text-3xl group-hover:text-charcoal/70 transition-colors">
                         {step.title}
                       </h4>
                     </div>
                     {activeStep === step.id ? (
-                      <ChevronUp className="w-5 h-5 text-charcoal/60" />
+                      <ChevronUp className="w-5 h-5 text-charcoal/60 shrink-0 ml-4" />
                     ) : (
-                      <ChevronDown className="w-5 h-5 text-charcoal/60" />
+                      <ChevronDown className="w-5 h-5 text-charcoal/60 shrink-0 ml-4" />
                     )}
                   </button>
                   
@@ -98,7 +98,7 @@ export default function TailoringProcess() {
                     }}
                     className="overflow-hidden"
                   >
-                    <p className="text-charcoal/70 leading-relaxed pl-12 md:pl-14 max-w-lg">
+                    <p className="text-charcoal/70 leading-relaxed pl-8 md:pl-14 max-w-lg">
                       {step.description}
                     </p>
                   </motion.div>
@@ -111,7 +111,7 @@ export default function TailoringProcess() {
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               transition={{ delay: 0.6 }}
-              className="mt-16 pl-12 md:pl-14"
+              className="mt-16 pl-8 md:pl-14"
             >
               <Link
                 to="/contact"
