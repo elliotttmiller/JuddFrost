@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     q: "What brands do you carry in your ready-to-wear collection?",
-    a: "We curate a selection of the finest heritage brands, including Alden shoes, specialized knitwear from Scotland and Italy, and premium accessories that complement our bespoke offerings."
+    a: "We curate a selection of the finest heritage brands, including premium footwear, specialized knitwear from Scotland and Italy, and premium accessories that complement our bespoke offerings."
   }
 ];
 

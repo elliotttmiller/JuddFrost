@@ -4,27 +4,27 @@ import { Link } from 'react-router-dom';
 const lookbookItems = [
   {
     id: 1,
-    image: 'https://images.unsplash.com/photo-1504593811423-6dd665756598?q=80&w=800&auto=format&fit=crop',
-    title: 'Heritage Knitwear',
-    subtitle: 'Cashmere & Merino',
+    image: `${import.meta.env.BASE_URL}ed97dc088eaa27c3fac3b2a97c5bcb58.jpg`,
+    title: 'Tailored Elegance',
+    subtitle: 'Bespoke Craftsmanship',
   },
   {
     id: 2,
-    image: 'https://images.unsplash.com/photo-1550614000-4b95d4eb772a?q=80&w=800&auto=format&fit=crop',
-    title: 'The Perfect Trouser',
-    subtitle: 'Italian Wool',
+    image: `${import.meta.env.BASE_URL}suits.jpg`,
+    title: 'The Perfect Suit',
+    subtitle: 'Fine Worsted Wool',
   },
   {
     id: 3,
-    image: 'https://images.unsplash.com/photo-1516257984-b1b4d707412e?q=80&w=800&auto=format&fit=crop',
-    title: 'Outerwear',
-    subtitle: 'Technical & Classic',
+    image: `${import.meta.env.BASE_URL}Mens++tailor+made+suits.png`,
+    title: 'Made-to-Measure',
+    subtitle: 'Custom Tailoring',
   },
   {
     id: 4,
-    image: 'https://images.unsplash.com/photo-1497339100210-9e87df79c218?q=80&w=800&auto=format&fit=crop',
-    title: 'Accessories',
-    subtitle: 'Ties, Pocket Squares & Leather Goods',
+    image: `${import.meta.env.BASE_URL}five-kinds-jackets-display-formal-events.png`,
+    title: 'Sport Coats',
+    subtitle: 'Formal & Casual',
   },
 ];
 
