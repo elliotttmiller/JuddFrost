@@ -1,6 +1,5 @@
 import { motion } from 'motion/react';
 import { MapPin, Phone, Mail, Instagram, Facebook } from 'lucide-react';
-import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
@@ -62,40 +61,13 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Map */}
-          <div className="flex flex-col">
-            <h3 className="text-sm tracking-widest uppercase text-stone-500 mb-8">Visit Us</h3>
-            
-            {/* Map Placeholder */}
-            <div className="w-full flex-1 min-h-[200px] bg-stone-800 relative overflow-hidden">
-              <img
-                src={`${import.meta.env.BASE_URL}judd.jpg`}
-                alt="Store Location"
-                className="w-full h-full object-cover opacity-30"
-                referrerPolicy="no-referrer"
-              />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <a
-                  href="https://maps.google.com/?q=631+Lake+Street+East,+Wayzata,+MN+55391"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-xs tracking-widest uppercase px-6 py-3 border border-stone-500 text-stone-300 hover:bg-stone-50 hover:text-stone-900 transition-colors bg-stone-900/50 backdrop-blur-sm whitespace-nowrap"
-                >
-                  Get Directions
-                </a>
-              </div>
-            </div>
-          </div>
+          {/* Map column removed (Visit Us header and Get Directions hero image) */}
 
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-stone-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs tracking-widest uppercase text-stone-600">
-          <p>&copy; {new Date().getFullYear()} Judd Frost Clothier. All Rights Reserved.</p>
-          <div className="flex gap-6">
-            <Link to="/about" className="hover:text-stone-400 transition-colors">About Us</Link>
-            <Link to="/faq" className="hover:text-stone-400 transition-colors">FAQ</Link>
-          </div>
+        <div className="border-t border-stone-800 pt-8 flex justify-center items-center text-xs tracking-widest uppercase text-stone-600">
+          <p className="text-center">&copy; {new Date().getFullYear()} Judd Frost Clothier. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
