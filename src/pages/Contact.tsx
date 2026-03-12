@@ -90,22 +90,14 @@ export default function Contact() {
             </ul>
 
             <div className="w-full grow min-h-75 bg-stone-200 relative overflow-hidden">
-              <img
-                src={`${import.meta.env.BASE_URL}judd.jpg`}
-                alt="Store Location"
-                className="w-full h-full object-cover opacity-60"
+              <iframe
+                title="Judd Frost Clothier — Map"
+                src="https://www.google.com/maps?q=631+Lake+St+E,+Wayzata,+MN+55391&output=embed"
+                className="w-full h-full border-0"
+                loading="lazy"
                 referrerPolicy="no-referrer"
+                aria-label="Map showing location of Judd Frost Clothier"
               />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <a
-                  href="https://maps.google.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-xs tracking-widest uppercase px-6 py-3 border border-charcoal text-charcoal hover:bg-charcoal hover:text-white transition-colors bg-white/50 backdrop-blur-sm"
-                >
-                  Get Directions
-                </a>
-              </div>
             </div>
             
           </div>

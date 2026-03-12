@@ -25,7 +25,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Contact & Hours */}
+          {/* Contact (Our Location) */}
           <div>
             <h3 className="text-sm tracking-widest uppercase text-stone-500 mb-8">Our Location</h3>
             <ul className="space-y-6 text-stone-300">
@@ -49,16 +49,17 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
-            
-            <div className="mt-12">
-              <h4 className="text-xs tracking-widest uppercase text-stone-500 mb-4">Hours</h4>
-              <ul className="space-y-2 text-stone-400 text-sm">
-                <li className="flex justify-between gap-4"><span>Mon - Fri</span><span>10am - 6pm</span></li>
-                <li className="flex justify-between gap-4"><span>Saturday</span><span>10am - 5pm</span></li>
-                <li className="flex justify-between gap-4"><span>Sunday</span><span>Closed</span></li>
-                <li className="mt-4 italic text-stone-500">Private appointments available upon request.</li>
-              </ul>
-            </div>
+          </div>
+
+          {/* Hours (placed to the right of Our Location) */}
+          <div>
+            <h4 className="text-xs tracking-widest uppercase text-stone-500 mb-4">Hours</h4>
+            <ul className="space-y-2 text-stone-400 text-sm">
+              <li className="flex justify-between gap-4"><span>Mon - Fri</span><span>10am - 6pm</span></li>
+              <li className="flex justify-between gap-4"><span>Saturday</span><span>10am - 5pm</span></li>
+              <li className="flex justify-between gap-4"><span>Sunday</span><span>Closed</span></li>
+              <li className="mt-4 italic text-stone-500">Private appointments available upon request.</li>
+            </ul>
           </div>
 
           {/* Map column removed (Visit Us header and Get Directions hero image) */}
