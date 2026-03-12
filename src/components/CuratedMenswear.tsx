@@ -10,7 +10,7 @@ const lookbookItems = [
   },
   {
     id: 2,
-    image: `${import.meta.env.BASE_URL}suits.jpg`,
+    image: `${import.meta.env.BASE_URL}hero-bg.png`,
     title: 'The Perfect Suit',
     subtitle: 'Fine Worsted Wool',
   },
