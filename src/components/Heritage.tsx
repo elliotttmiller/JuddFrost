@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function Heritage() {
   return (
-    <section id="heritage" className="py-32 md:py-48 bg-charcoal text-stone-50 relative overflow-hidden">
+    <section id="heritage" className="py-24 md:py-32 lg:py-48 bg-charcoal text-stone-50 relative overflow-hidden">
       {/* Background Texture/Image */}
       <div className="absolute inset-0 z-0 opacity-20 mix-blend-overlay">
         <img
@@ -23,7 +23,7 @@ export default function Heritage() {
         >
           <h3 className="text-sm tracking-widest uppercase text-stone-50/60 mb-8">Heritage & Philosophy</h3>
           
-          <h2 className="font-serif text-3xl md:text-5xl lg:text-6xl leading-relaxed mb-12">
+          <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-relaxed mb-12">
             "True luxury is not found in a label, but in the <span className="italic font-light text-stone-300">uncompromising precision</span> of the fit and the personal connection forged in the shop."
           </h2>
 

@@ -37,39 +37,21 @@ export default function AldenCollab() {
             </motion.div>
           </div>
 
-          {/* Image Grid */}
-          <div className="w-full lg:w-1/2 order-1 lg:order-2 relative">
-            <div className="grid grid-cols-2 gap-4 md:gap-8">
-              <motion.div
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.8, delay: 0.2 }}
-                className="mt-12 md:mt-24"
-              >
-                <img
-                  src="/d4f528ac-8254-4356-9d8b-d5ef7e7bbefa.png"
-                  alt="High End Menswear Detail"
-                  className="w-full h-auto object-cover"
-                  referrerPolicy="no-referrer"
-                />
-              </motion.div>
-              <motion.div
-                initial={{ opacity: 0, y: -30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.8, delay: 0.4 }}
-              >
-                <img
-                  src="https://images.unsplash.com/photo-1490367532201-b9bc1dc483f6?q=80&w=600&auto=format&fit=crop"
-                  alt="High End Menswear Collection"
-                  className="w-full h-auto object-cover"
-                  referrerPolicy="no-referrer"
-                />
-              </motion.div>
-            </div>
-            {/* Decorative Element */}
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] border border-charcoal/10 -z-10 rounded-full"></div>
+          {/* Single Image */}
+          <div className="w-full lg:w-1/2 order-1 lg:order-2">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+            >
+              <img
+                src={`${import.meta.env.BASE_URL}d4f528ac-8254-4356-9d8b-d5ef7e7bbefa.png`}
+                alt="High End Menswear Detail"
+                className="w-full h-auto object-cover max-h-[600px]"
+                referrerPolicy="no-referrer"
+              />
+            </motion.div>
           </div>
 
         </div>
