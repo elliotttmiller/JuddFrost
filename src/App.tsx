@@ -15,7 +15,7 @@ import Contact from './pages/Contact';
 export default function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-stone-50 font-sans text-charcoal selection:bg-charcoal selection:text-white">
+      <div className="min-h-screen bg-stone-50 font-sans text-charcoal selection:bg-charcoal selection:text-white overflow-x-hidden w-full">
         <Navbar />
         <main>
           <Routes>

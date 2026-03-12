@@ -7,7 +7,7 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src={`${import.meta.env.BASE_URL}87c7bee269686868e2ff2a7fcd680feb.jpg`}
+          src={`${import.meta.env.BASE_URL}hero-bg.png`}
           alt="Bespoke Tailoring"
           className="w-full h-full object-cover"
           referrerPolicy="no-referrer"
